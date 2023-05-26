@@ -1,0 +1,137 @@
+/* Resetear estilos por defecto */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 10px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ebf0f6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #007bff;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+/* Estilos de secciones */
+section {
+}
+
+#inicio {
+  background-color: #f8f8f8;
+
+}
+#inicio img{
+    width: 100%;
+}
+
+#servicios {
+  background-color: #fff;
+}
+
+#equipo {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+#equipo .abogados {
+  display: flex;
+  justify-content: center;
+}
+.abogado {
+  display: flex;
+  flex-direction: column;
+  inset-block: inherit;
+}
+
+#equipo h2 {
+  margin-bottom: 20px;
+}
+
+#equipo img {
+  width: 180px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 180px;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  padding: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#contacto {
+  background-color: #fff;
+ 
+}
+#contacto a{
+    color:rgb(101, 101, 223) ;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #007bff;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+main {
+  margin: 70px;
+}
+.descripcion {
+    display: none;
+    color:#007bff;
+    border: 5px dotted;
+  }

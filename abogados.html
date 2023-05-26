@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nombre de la Empresa de Abogados</title>
+    <link rel="stylesheet" href="abogados.css" />
+    <script src="abogados.js"></script>
+    <!-- Enlace a tu archivo de estilos CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Nombre de la Empresa de Abogados</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <h2>Bienvenido a la Empresa de Abogados</h2>
+        <p>Texto introductorio sobre la empresa y los servicios que ofrece.</p>
+        <img src="img/empresas.jpg" alt="abogados" />
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+          <li>
+            <span onclick="mostrarDescripcion('descripcion1')"
+              ><i class="fas fa-info-circle"></i
+            ></span>
+            Divorcio y derecho familiar
+          </li>
+          <p id="descripcion1" class="descripcion">
+            El divorcio y el derecho familiar son áreas de práctica legal...
+          </p>
+          <li>
+            <span onclick="mostrarDescripcion('descripcion2')"
+              ><i class="fas fa-info-circle"></i
+            ></span>
+            Derecho laboral
+          </li>
+          <p id="descripcion2" class="descripcion">
+            El derecho laboral es una rama del derecho encargada de...
+          </p>
+          <li>
+            <span onclick="mostrarDescripcion('descripcion3')"
+              ><i class="fas fa-info-circle"></i
+            ></span>
+            Derecho penal
+          </li>
+          <p id="descripcion3" class="descripcion">
+            El derecho penal es una rama del derecho encargada de...
+          </p>
+          <li>
+            <span onclick="mostrarDescripcion('descripcion4')"
+              ><i class="fas fa-info-circle"></i
+            ></span>
+            Propiedad intelectual
+          </li>
+
+          <p id="descripcion4" class="descripcion">
+            La propiedad intelectual se refiere a los derechos legales...
+          </p>
+        </ul>
+      </section>
+
+      <section id="equipo">
+        <h2>Nuestro Equipo</h2>
+        <div class="abogados">
+          <div class="abogado">
+            <img src="img/img1.jpg" alt="Equipo de abogados" />
+            <p>abogado-1</p>
+          </div>
+          <div class="abogado">
+            <img src="img/img2.jpg" alt="Equipo de abogados" />
+            <p>abogado-2</p>
+          </div>
+          <div class="abogado">
+            <img src="img/img3.jpg" alt="Equipo de abogados" />
+            <p>abogado-3</p>
+          </div>
+          <div class="abogado">
+            <img src="img/img4.jpg" alt="Equipo de abogados" />
+            <p>abogado-4</p>
+          </div>
+          <div class="abogado">
+            <img src="img/img5.jpg" alt="Equipo de abogados" />
+            <p>abogado-5</p>
+          </div>
+          <div class="abogado">
+            <img src="img/img6.jpg" alt="Equipo de abogados" />
+            <p>abogado-6</p>
+          </div>
+        </div>
+      </section>
+      <section id="video">
+        <h3>Video de Presentación</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Ayl1nuj7YoU"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para consultas y citas, contáctanos a:</p>
+        <p>Teléfono: <a href="tel:+123456789">123456789</a></p>
+        <p>
+          Email:
+          <a href="mailto:info@empresaabogados.com">info@empresaabogados.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Derechos Reservados &copy; 2023 Nombre de la Empresa de Abogados</p>
+    </footer>
+  </body>
+</html>
