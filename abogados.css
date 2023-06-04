@@ -70,14 +70,17 @@ header nav ul li {
 
 /* Estilos de secciones */
 section {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
 }
 
 #inicio {
   background-color: #f8f8f8;
-
 }
-#inicio img{
-    width: 100%;
+#inicio img {
+  width: 100%;
 }
 
 #servicios {
@@ -95,7 +98,7 @@ section {
 .abogado {
   display: flex;
   flex-direction: column;
-  inset-block: inherit;
+ 
 }
 
 #equipo h2 {
@@ -113,13 +116,30 @@ section {
 
 #contacto {
   background-color: #fff;
- 
 }
-#contacto a{
-    color:rgb(101, 101, 223) ;
+#contacto a {
+  color: rgb(101, 101, 223);
 }
 
 /* Estilos de pie de página */
+
+p.descripcion {
+  display: none;
+  color: #007bff;
+  width: 50%;
+  border: 2px dotted;
+}
+span {
+  font-size: 30px;
+  margin-right: 30px;
+}
+#video {
+  text-align: center;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+}
 footer {
   background-color: #007bff;
   padding: 10px;
@@ -130,8 +150,3 @@ footer {
 main {
   margin: 70px;
 }
-.descripcion {
-    display: none;
-    color:#007bff;
-    border: 5px dotted;
-  }

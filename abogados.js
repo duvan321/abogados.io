@@ -1,9 +1,9 @@
-function mostrarDescripcion(descripcion) {
-    var descripcionElemento = document.getElementById(descripcion);
-    if (descripcionElemento.style.display === "none") {
-      descripcionElemento.style.display = "block";
-    } else {
-      descripcionElemento.style.display = "none";
-    }
+function mostrarDescripcion(id) {
+  var descripcion = document.getElementById(id);
+  if (descripcion.style.display === "none") {
+    descripcion.style.display = "block";
+  } else {
+    descripcion.style.display = "none";
   }
+}
 
